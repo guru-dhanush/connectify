@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "new-bucket"
+    bucket = "deeeee"
     prefix = "terraform/workspace/state"
   }
 }
