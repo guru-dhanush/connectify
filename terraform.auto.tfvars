@@ -1,10 +1,10 @@
 # >>> org_policy >>>
 org-policy = [
   {
-    constraint        = "constraints/storage.secureHttpTransport"
-    policy_type       = "list"
+    constraint        = "constraints/compute.disableNonFIPSMachineTypes"
+    policy_type       = "boolean"
     policy_for        = "folder"
-    folder_id         = "34567"
+    folder_id         = "2332"
     project_id        = null
     organization_id   = null
     enforce           = null
