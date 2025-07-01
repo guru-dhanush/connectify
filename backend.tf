@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "niveus-bucket"
-    prefix = "terraform/Organisation/state"
+    bucket = "test"
+    prefix = "terraform/organisation/state"
   }
 }
