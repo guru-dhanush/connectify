@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "ggggggggg"
+    bucket = "tvs-bucket-4821"
     prefix = "terraform/organisation/state"
   }
 }
